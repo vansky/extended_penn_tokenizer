@@ -1,18 +1,11 @@
 #!/bin/sed -f
 
 ### Original script (1995) available at: http://www.cis.upenn.edu/~treebank/tokenizer.sed
-### Updated script (forked in 2012) available at: https://github.com/vansky/penn_tokenizer
+###   by Robert MacIntyre, University of Pennsylvania
+### Extended script (forked in 2012) available at: https://github.com/vansky/extended_penn_tokenizer
 
 # Sed script to produce Penn Treebank tokenization on arbitrary raw text.
-# Yeah, sure.
-
 # expected input: raw text with ONE SENTENCE TOKEN PER LINE
-
-# by Robert MacIntyre, University of Pennsylvania, late 1995.
-
-# If this wasn't such a trivial program, I'd include all that stuff about
-# no warrantee, free use, etc. from the GNU General Public License.  If you
-# want to be picky, assume that all of its terms apply.  Okay?
 
 # attempt to get correct directional quotes
 s=^"=`` =g
