@@ -2,8 +2,6 @@
 
 # Sed script to produce Penn Treebank tokenization on arbitrary raw text.
 # Yeah, sure.
-### Downloaded by Dave Howcroft on 23 Feb 2012 from www.cis.upenn.edu/~treebank/tokenizer.sed.
-### Modified by Marten van Schijndel on 15 Oct 2014: Better accounting for open/close quotes and fixed 'comma in number' handling
 
 # expected input: raw text with ONE SENTENCE TOKEN PER LINE
 
