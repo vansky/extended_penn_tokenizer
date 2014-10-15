@@ -1,5 +1,8 @@
 #!/bin/sed -f
 
+### Original script (1995) available at: http://www.cis.upenn.edu/~treebank/tokenizer.sed
+### Updated script (forked in 2012) available at: https://github.com/vansky/penn_tokenizer
+
 # Sed script to produce Penn Treebank tokenization on arbitrary raw text.
 # Yeah, sure.
 
