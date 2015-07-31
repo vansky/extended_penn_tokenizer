@@ -51,7 +51,7 @@ s=$= =
 s=^= =
 
 # capture open quotes
-s=\([^nN]\)'\([^('|ll|re|ve|LL|RE|VE|t|T|s|S)]\)=\1' \2=g
+s=\([^nN]\)'\([^('|ll|re|ve|LL|RE|VE|t|T|s|S|d|m)]\)=\1' \2=g
 s=\([^nN]\)'\([tT]\)=\1' \2=g
 s= '\([lL]\)\([^lL]\)=' \1\2=g
 s= '\([rR]\)\([^eE]\)=' \1\2=g
@@ -66,6 +66,8 @@ s='ll = 'll =g
 s='re = 're =g
 s='ve = 've =g
 s=n't = n't =g
+s='d = 'd =g
+s='m = 'm =g
 s='LL = 'LL =g
 s='RE = 'RE =g
 s='VE = 'VE =g
