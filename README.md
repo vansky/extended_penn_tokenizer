@@ -13,3 +13,5 @@ Updated to:
   * fix 'comma in number' handling
   * fix open/close quote handling
   * generalize tokenization to documents with directional quotes
+  * handle additional contractions
+  * add an untokenizer to untokenize arbitrary documents to their original form
