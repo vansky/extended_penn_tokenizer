@@ -10,8 +10,8 @@ s=`` =``=g
 s= ''=''=g
 
 s= \.\.\.=...=g
-s= \([!?;]\) \1=\1=g
-s= \([%:]\)=\1=g
+s= \([!?;]\) \1= \1=g
+s= \([%:!?;]\)=\1=g
 s=\([$#]\) =\1=g
 s= \([,.]\)=\1=g
 s=,,=,=g
@@ -44,15 +44,15 @@ s= '='=g
 s= n't=n't=g
 s= N'T=N'T=g
 #s= \([Cc]\)annot = \1an not =g
-#s= \([Dd]\)'ye = \1' ye =g
-#s= \([Gg]\)imme = \1im me =g
-#s= \([Gg]\)onna = \1on na =g
-#s= \([Gg]\)otta = \1ot ta =g
-#s= \([Ll]\)emme = \1em me =g
+s= \([Dd]\)' ye = \1'ye =g
+s= \([Gg]\)im me = \1imme =g
+s= \([Gg]\)on na = \1onna =g
+s= \([Gg]\)ot ta = \1otta =g
+s= \([Ll]\)em me = \1emme =g
 #s= \([Mm]\)ore'n = \1ore 'n =g
 #s= '\([Tt]\)is = '\1 is =g
 #s= '\([Tt]\)was = '\1 was =g
-#s= \([Ww]\)anna = \1an na =g
+s= \([Ww]\)an na = \1anna =g
 
 # clean out extra spaces
 s=  *= =g
